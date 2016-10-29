@@ -1,14 +1,16 @@
 /**
  * Message.js
  *
- * @description :: TODO: You might write a short summary of how this model works and what it represents here.
+ * @description :: Basic Message model to be cached to Redis. Contains attributes of sender, recipient, and payload.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
 module.exports = {
 
+  connection: 'localRedis',
   attributes: {
-
+    'sender': 'string',
+    'recipient': 'string',
+    'payload': 'string'
   }
 };
-

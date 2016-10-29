@@ -1,14 +1,14 @@
 /**
  * User.js
  *
- * @description :: TODO: You might write a short summary of how this model works and what it represents here.
+ * @description :: Basic user model with an id, and name.
  * @docs        :: http://sailsjs.org/documentation/concepts/models-and-orm/models
  */
 
 module.exports = {
 
   attributes: {
-
+    id: 'int',
+    name: 'string'
   }
 };
-
