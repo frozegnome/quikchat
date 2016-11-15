@@ -7,6 +7,7 @@
 
 module.exports = {
 
+  connection: 'localMongoDb',
   attributes: {
     id: 'int',
     name: 'string'
